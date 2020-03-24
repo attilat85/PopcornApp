@@ -1,0 +1,106 @@
+{
+  "page": 1,
+  "total_results": 6,
+  "total_pages": 1,
+  "results": [
+    {
+      "popularity": 29.758,
+      "id": 272,
+      "video": false,
+      "vote_count": 13723,
+      "vote_average": 7.6,
+      "title": "Batman Begins",
+      "release_date": "2005-06-10",
+      "original_language": "en",
+      "original_title": "Batman Begins",
+      "genre_ids": [
+        28,
+        80,
+        18
+      ],
+      "backdrop_path": "/9myrRcegWGGp24mpVfkD4zhUfhi.jpg",
+      "adult": false,
+      "overview": "Driven by tragedy, billionaire Bruce Wayne dedicates his life to uncovering and defeating the corruption that plagues his home, Gotham City.  Unable to work within the system, he instead creates a new identity, a symbol of fear for the criminal underworld - The Batman.",
+      "poster_path": "/dr6x4GyyegBWtinPBzipY02J2lV.jpg"
+    },
+    {
+      "popularity": 17.69,
+      "vote_count": 4475,
+      "video": false,
+      "poster_path": "/kBf3g9crrADGMc2AMAMlLBgSm2h.jpg",
+      "id": 268,
+      "adult": false,
+      "backdrop_path": "/2blmxp2pr4BhwQr74AdCfwgfMOb.jpg",
+      "original_language": "en",
+      "original_title": "Batman",
+      "genre_ids": [
+        28,
+        14
+      ],
+      "title": "Batman",
+      "vote_average": 7.1,
+      "overview": "The Dark Knight of Gotham City begins his war on crime with his first major enemy being the clownishly homicidal Joker, who has seized control of Gotham's underworld.",
+      "release_date": "1989-06-23"
+    },
+    {
+      "popularity": 15.2,
+      "vote_count": 3172,
+      "video": false,
+      "poster_path": "/eTMrHEhlFPHNxpqGwpGGTdAa0xV.jpg",
+      "id": 414,
+      "adult": false,
+      "backdrop_path": "/gVTTtYgKIBurNvkGiGC6735b8y.jpg",
+      "original_language": "en",
+      "original_title": "Batman Forever",
+      "genre_ids": [
+        28,
+        80,
+        14
+      ],
+      "title": "Batman Forever",
+      "vote_average": 5.3,
+      "overview": "The Dark Knight of Gotham City confronts a dastardly duo: Two-Face and the Riddler. Formerly District Attorney Harvey Dent, Two-Face believes Batman caused the courtroom accident which left him disfigured on one side. And Edward Nygma, computer-genius and former employee of millionaire Bruce Wayne, is out to get the philanthropist; as The Riddler. Former circus acrobat Dick Grayson, his family killed by Two-Face, becomes Wayne's ward and Batman's new partner Robin.",
+      "release_date": "1995-06-16"
+    },
+    {
+      "popularity": 16.379,
+      "vote_count": 3724,
+      "video": false,
+      "poster_path": "/ifzddUhnsTf1h6guBUKBlDwuS1t.jpg",
+      "id": 364,
+      "adult": false,
+      "backdrop_path": "/reQewz6KndV7Js2mfLfaaX8Rj0T.jpg",
+      "original_language": "en",
+      "original_title": "Batman Returns",
+      "genre_ids": [
+        28,
+        14
+      ],
+      "title": "Batman Returns",
+      "vote_average": 6.8,
+      "overview": "Having defeated the Joker, Batman now faces the Penguin—a warped and deformed individual who is intent on being accepted into Gotham society, with the help of Max Schreck, a crooked businessman, whom he coerces into helping him run for the position of Mayor of Gotham, while they both attempt to frame Batman in a different light. Batman must attempt to clear his name, all while also deciding just what must be done with the mysterious Catwoman slinking about.",
+      "release_date": "1992-06-19"
+    },
+    {
+      "popularity": 13.46,
+      "vote_count": 3066,
+      "video": false,
+      "poster_path": "/79AYCcxw3kSKbhGpx1LiqaCAbwo.jpg",
+      "id": 415,
+      "adult": false,
+      "backdrop_path": "/tgPFZxhDuxWd4VXYaz8eAUznGTF.jpg",
+      "original_language": "en",
+      "original_title": "Batman & Robin",
+      "genre_ids": [
+        28,
+        35,
+        14,
+        878
+      ],
+      "title": "Batman & Robin",
+      "vote_average": 4.3,
+      "overview": "Along with crime-fighting partner Robin and new recruit Batgirl, Batman battles the dual threat of frosty genius Mr. Freeze and homicidal horticulturalist Poison Ivy. Freeze plans to put Gotham City on ice, while Ivy tries to drive a wedge between the dynamic duo.",
+      "release_date": "1997-06-20"
+    }
+  ]
+}

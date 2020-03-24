@@ -16,7 +16,7 @@ private let genres: [Int: String] = [28: "Action", 12: "Adventure", 16:"Animatio
                                      9648: "Mystery", 10749: "Romance", 878: "Science Fiction",
                                      10770: "TV Movie", 53: "Thriller", 10752: "War", 37: "Western"]
 
-class Movie: Decodable {
+public class Movie: Decodable {
     
     let id: Int 
     let popularity: Double
