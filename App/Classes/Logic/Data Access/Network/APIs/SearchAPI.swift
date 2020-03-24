@@ -11,7 +11,7 @@ import RxSwift
 //import Alamofire
 
 protocol SearchAPI {
-    func searchMoview(query: String, page: Int?)  -> Single<Response>
+    func searchMovie(query: String, page: Int?)  -> Single<Response>
 }
 
 class SearchAPIImpl: SearchAPI {
@@ -23,7 +23,7 @@ class SearchAPIImpl: SearchAPI {
     
     // search Movies
     // GET 3/search/movie
-    func searchMoview(query: String, page: Int? = 1)  -> Single<Response> {
+    func searchMovie(query: String, page: Int? = 1)  -> Single<Response> {
         let request = Request(parameters: QueryDTO(query: query, page: page ?? 1, apiKey: API.apiKey))
          return networkClient.rx.execute(request: request)
     }

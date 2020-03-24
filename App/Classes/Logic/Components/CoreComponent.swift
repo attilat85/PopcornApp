@@ -19,7 +19,7 @@ public final class CoreComponent {
         return NetworkClient(session: session)
     }()
     
-    lazy private var searchAPI = SearchAPI(networkClient: networkClient)
+    lazy private var searchAPI = SearchAPIImpl(networkClient: networkClient)
     
     lazy var searchService: SearchService = SearchServiceImpl(searchAPI: searchAPI)
     lazy var homeService: HomeService = HomeServiceImpl()

@@ -7,7 +7,6 @@
 
 import Foundation
 import UIKit
-import SwiftDate
 
 protocol SearchResultCellViewModel {
     var rateViewModel: RateViewModel { get }

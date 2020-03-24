@@ -22,6 +22,6 @@ class SearchServiceImpl: SearchService {
     }
     
     func search(query: String, page: Int) -> Single<Response> {
-        return searchAPI.searchMoview(query: query, page: page)
+        return searchAPI.searchMovie(query: query, page: page)
     }
 }
