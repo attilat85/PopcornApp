@@ -1,0 +1,29 @@
+reporter: "xcode"
+
+# rule identifiers to exclude from running
+disabled_rules:
+  - colon
+  - comma
+  - control_statement
+  - trailing_whitespace
+# some rules are only opt-in
+opt_in_rules: 
+  - empty_count
+included:
+  - App
+  - Core
+
+line_length: 250
+
+type_name:
+  excluded:
+    - ID
+
+identifier_name:
+  excluded:
+    - id
+    - ID
+
+nesting:
+  type_level:
+    warning: 2

@@ -1,0 +1,8 @@
+# App identifier
+# This variable is used by your actions:
+#  * find xcodeproject target.
+#  * match certificates
+app_identifier("com.halcyonmobile.*")
+
+# Team id. default: Halcyon Mobile
+team_id("Y6P2NYW2G8")

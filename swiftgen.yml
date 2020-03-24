@@ -1,0 +1,22 @@
+input_dir: App
+output_dir: App/Generated/
+
+strings:
+  inputs: Resources/Strings/Localizable.strings
+  outputs:
+    templateName: flat-swift4
+    output: Strings.swift
+
+xcassets:
+  inputs:
+    - Resources/Images.xcassets
+    - Resources/Colors.xcassets
+  outputs:
+    templateName: swift4
+    output: Assets.swift
+
+ib:
+  inputs: Classes/User Interface
+  outputs: 
+    templateName: scenes-swift4
+    output: Storyboards.swift

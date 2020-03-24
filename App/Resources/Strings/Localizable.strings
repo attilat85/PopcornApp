@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  project-skeleton
+
+  Created by Halcyon Mobile on 12/03/2017.
+  Copyright © 2017 Halcyon Mobile. All rights reserved.
+*/
+
+"Yes" = "Yes";
+"No" = "No";
+"Ok" = "OK";
+"Ooups" = "Ooups";
+"Not available" = "N/A";
+
+"Find the movie" = "Find the movie";
+"Trending Movies" = "Trending Movies";
+"Trending Movies" = "Trending Movies";
+"No movies found" = "No movies found";

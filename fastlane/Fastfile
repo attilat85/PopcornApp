@@ -1,0 +1,68 @@
+default_platform(:ios)
+
+platform :ios do
+  
+  scheme = "{Project_RAVEN}"
+  sources_path = "Source"
+
+  desc "Runs all the tests"
+  lane :test do
+    scan
+  end
+  
+  desc "Staging build distribution"
+  desc "options"
+  desc "  - nightly: bool"
+  lane :distribute_staging do |options|
+    sync_code_signing(readonly: true)
+
+    increment_build_number(build_number: ENV["BUILD_NUMBER"])
+
+    if options[:nightly]
+      # add badge
+    end
+
+    build_app(
+      workspace: "#{scheme}.xcworkspace",
+      scheme: scheme,
+      configuration: "Release",
+      silent: true,
+      clean: true,
+      export_method: "development"
+    )
+
+    # Distribute through Firebase App Distribution
+    firebase_app_distribution(
+      groups: "",
+      release_notes: git_24_hour_commit_history
+    )
+  end 
+
+  desc "Production build distribution"
+  lane :distribute_production do |options|
+    sync_code_signing(type: "appstore", readonly: true)
+
+    build_app(
+      workspace: "#{scheme}.xcworkspace",
+      scheme: scheme,
+      configuration: "Release",
+      silent: true,
+      clean: true,
+      export_method: "appstore"
+    )
+
+    # App store upload.
+    upload_to_app_store(
+      skip_app_version_update: true
+    )
+  end
+
+
+  # Utility
+
+  # Get commit messages merged in the last 24 hours
+  def git_24_hour_commit_history
+    # commit list from the last 24 hours, filter commits to contain "SAM", remove commit sha-s
+    sh "git rev-list --reverse --abbrev-commit --pretty=format:'• %s %b' --no-merges HEAD --not $(git rev-list -n1 --before='24 hours' --first-parent HEAD) | sed '/^commit/ d'"
+  end
+end

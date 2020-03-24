@@ -1,0 +1,34 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Alamofire",
+        "repositoryURL": "https://github.com/Alamofire/Alamofire.git",
+        "state": {
+          "branch": null,
+          "revision": "747c8db8d57b68d5e35275f10c92d55f982adbd4",
+          "version": "4.9.1"
+        }
+      },
+      {
+        "package": "Kingfisher",
+        "repositoryURL": "https://github.com/onevcat/Kingfisher",
+        "state": {
+          "branch": null,
+          "revision": "56075f629bc3915e1bfa876d175df67e1a7cbe3c",
+          "version": "5.13.2"
+        }
+      },
+      {
+        "package": "RestBird",
+        "repositoryURL": "https://github.com/halcyonmobile/RestBird",
+        "state": {
+          "branch": null,
+          "revision": "7765540ad508d6e3631ea7daf81ba79f25ff07f3",
+          "version": "0.5.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

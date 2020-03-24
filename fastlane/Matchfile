@@ -1,0 +1,5 @@
+# Match URL. default: Halcyon Mobile wildcard certificate
+git_url("git@bitbucket.org:halcyonmobile/ios-wildcard-app-certificate.git")
+
+# Profile type. default: adhoc
+type("adhoc")
