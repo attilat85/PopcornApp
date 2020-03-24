@@ -17,11 +17,11 @@ The project was started from our company project skeletom with some helper class
  - **Logic** - communication with api, data handling and storage
  - **User Interface**:
      - Component - child of basic UI componens
-     - Flows - flow contrlooer and it's contents
+     - Flows - flow controller and its contents
 
 ### Libraries
 - **RestBird** - Lightweight, stateless REST network manager over the Codable protocol built upon Alamofire and I used I to make the api request.
-- **[Kingfisher](https://github.com/onevcat/Kingfisher)** - loadign images easy way
+- **[Kingfisher](https://github.com/onevcat/Kingfisher)** - loading images easily
 - **[RxSwift](https://github.com/ReactiveX/RxSwift)** - communication between data handlers -> view models and view models -> UI
 - **https://github.com/SwiftGen/SwiftGen** - generates code from localizable strings, assets and colors
 
